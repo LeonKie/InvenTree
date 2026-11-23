@@ -8,7 +8,7 @@ msgstr ""
 "Language: th\n"
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-17 12:40\n"
+"PO-Revision-Date: 2026-11-21 22:59\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -257,7 +257,7 @@ msgstr ""
 
 #: lib/enums/ModelInformation.tsx:105
 #: src/components/previews/models/ManufacturerPartPreview.tsx:16
-#: src/pages/company/ManufacturerPartDetail.tsx:191
+#: src/pages/company/ManufacturerPartDetail.tsx:199
 #: src/pages/company/SupplierPartDetailsPanel.tsx:115
 #: src/tables/part/PartPurchaseOrdersTable.tsx:65
 #: src/tables/stock/StockItemTable.tsx:140
@@ -312,7 +312,7 @@ msgstr ""
 #: src/pages/part/CategoryDetail.tsx:240
 #: src/pages/part/PartStockHistoryDetail.tsx:119
 #: src/pages/stock/LocationDetail.tsx:150
-#: src/pages/stock/StockLocationDetailsPanel.tsx:64
+#: src/pages/stock/StockLocationDetailsPanel.tsx:72
 msgid "Stock Items"
 msgstr ""
 
@@ -326,11 +326,14 @@ msgstr ""
 #: lib/enums/ModelInformation.tsx:137
 #: src/pages/stock/LocationDetail.tsx:124
 #: src/pages/stock/LocationDetail.tsx:421
+#: src/pages/stock/LocationTypeDetailsPanel.tsx:16
 #: src/pages/stock/StockDetail.tsx:746
 msgid "Stock Locations"
 msgstr ""
 
 #: lib/enums/ModelInformation.tsx:146
+#: src/components/previews/models/StockLocationTypePreview.tsx:13
+#: src/pages/stock/LocationTypeDetail.tsx:90
 msgid "Stock Location Type"
 msgstr ""
 
@@ -338,16 +341,16 @@ msgstr ""
 msgid "Stock Location Types"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:152
+#: lib/enums/ModelInformation.tsx:154
 #: src/pages/part/PartDetail.tsx:439
 msgid "Stock History"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:153
+#: lib/enums/ModelInformation.tsx:155
 msgid "Stock Histories"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:158
+#: lib/enums/ModelInformation.tsx:160
 #: src/components/previews/models/BuildOrderPreview.tsx:15
 #: src/pages/build/BuildDetail.tsx:572
 #: src/pages/stock/StockDetailsPanel.tsx:285
@@ -359,7 +362,7 @@ msgstr ""
 msgid "Build Order"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:159
+#: lib/enums/ModelInformation.tsx:161
 #: lib/enums/Roles.tsx:36
 #: src/defaults/actions.tsx:182
 #: src/pages/Index/Settings/SystemSettings.tsx:319
@@ -369,23 +372,23 @@ msgstr ""
 msgid "Build Orders"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:169
+#: lib/enums/ModelInformation.tsx:171
 msgid "Build Line"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:170
+#: lib/enums/ModelInformation.tsx:172
 msgid "Build Lines"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:176
+#: lib/enums/ModelInformation.tsx:178
 msgid "Build Item"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:177
+#: lib/enums/ModelInformation.tsx:179
 msgid "Build Items"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:182
+#: lib/enums/ModelInformation.tsx:184
 #: src/components/previews/models/CompanyPreview.tsx:15
 #: src/pages/company/CompanyDetail.tsx:275
 #: src/tables/company/CompanyTable.tsx:74
@@ -394,12 +397,12 @@ msgstr ""
 msgid "Company"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:183
+#: lib/enums/ModelInformation.tsx:185
 #: src/pages/Index/Settings/AdminCenter/Index.tsx:194
 msgid "Companies"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:190
+#: lib/enums/ModelInformation.tsx:192
 #: src/components/calendar/OrderCalendarToolTip.tsx:33
 #: src/components/tables/ColumnRenderers.tsx:568
 #: src/components/tables/Filter.tsx:364
@@ -413,12 +416,12 @@ msgstr ""
 msgid "Project Code"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:191
+#: lib/enums/ModelInformation.tsx:193
 #: src/pages/Index/Settings/AdminCenter/Index.tsx:211
 msgid "Project Codes"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:196
+#: lib/enums/ModelInformation.tsx:198
 #: src/components/previews/models/PurchaseOrderPreview.tsx:15
 #: src/components/wizards/OrderPartsWizard.tsx:351
 #: src/pages/part/pricing/PurchaseHistoryPanel.tsx:34
@@ -430,7 +433,7 @@ msgstr ""
 msgid "Purchase Order"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:197
+#: lib/enums/ModelInformation.tsx:199
 #: lib/enums/Roles.tsx:44
 #: src/defaults/actions.tsx:133
 #: src/pages/Index/Settings/SystemSettings.tsx:347
@@ -441,15 +444,15 @@ msgstr ""
 msgid "Purchase Orders"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:207
+#: lib/enums/ModelInformation.tsx:209
 msgid "Purchase Order Line"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:208
+#: lib/enums/ModelInformation.tsx:210
 msgid "Purchase Order Lines"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:213
+#: lib/enums/ModelInformation.tsx:215
 #: src/components/previews/models/SalesOrderPreview.tsx:15
 #: src/pages/build/BuildOrderDetailsPanel.tsx:143
 #: src/pages/part/pricing/SaleHistoryPanel.tsx:25
@@ -465,7 +468,7 @@ msgstr ""
 msgid "Sales Order"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:214
+#: lib/enums/ModelInformation.tsx:216
 #: lib/enums/Roles.tsx:50
 #: src/defaults/actions.tsx:143
 #: src/pages/Index/Settings/SystemSettings.tsx:367
@@ -475,23 +478,23 @@ msgstr ""
 msgid "Sales Orders"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:224
+#: lib/enums/ModelInformation.tsx:226
 #: src/pages/sales/SalesOrderShipmentDetail.tsx:259
 msgid "Sales Order Shipment"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:225
+#: lib/enums/ModelInformation.tsx:227
 msgid "Sales Order Shipments"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:235
+#: lib/enums/ModelInformation.tsx:237
 #: src/components/previews/models/ReturnOrderPreview.tsx:15
 #: src/pages/sales/ReturnOrderDetail.tsx:334
 #: src/tables/general/AuditLogTable.tsx:251
 msgid "Return Order"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:236
+#: lib/enums/ModelInformation.tsx:238
 #: lib/enums/Roles.tsx:46
 #: src/defaults/actions.tsx:163
 #: src/pages/Index/Settings/SystemSettings.tsx:380
@@ -501,15 +504,15 @@ msgstr ""
 msgid "Return Orders"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:246
+#: lib/enums/ModelInformation.tsx:248
 msgid "Return Order Line Item"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:247
+#: lib/enums/ModelInformation.tsx:249
 msgid "Return Order Line Items"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:252
+#: lib/enums/ModelInformation.tsx:254
 #: src/components/previews/models/TransferOrderPreview.tsx:15
 #: src/pages/stock/TransferOrderDetail.tsx:352
 #: src/tables/general/AuditLogTable.tsx:254
@@ -517,7 +520,7 @@ msgstr ""
 msgid "Transfer Order"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:253
+#: lib/enums/ModelInformation.tsx:255
 #: lib/enums/Roles.tsx:48
 #: src/defaults/actions.tsx:153
 #: src/pages/Index/Settings/SystemSettings.tsx:301
@@ -526,25 +529,25 @@ msgstr ""
 msgid "Transfer Orders"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:262
+#: lib/enums/ModelInformation.tsx:264
 msgid "Transfer Order Line Item"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:263
+#: lib/enums/ModelInformation.tsx:265
 msgid "Transfer Order Line Items"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:268
+#: lib/enums/ModelInformation.tsx:270
 #: src/tables/company/AddressTable.tsx:52
 msgid "Address"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:269
+#: lib/enums/ModelInformation.tsx:271
 #: src/pages/company/CompanyDetail.tsx:187
 msgid "Addresses"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:274
+#: lib/enums/ModelInformation.tsx:276
 #: src/pages/Index/Settings/AccountSettings/AccountDetailPanel.tsx:89
 #: src/pages/core/UserDetail.tsx:132
 #: src/pages/purchasing/PurchaseOrderDetailsPanel.tsx:160
@@ -555,22 +558,22 @@ msgstr ""
 msgid "Contact"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:275
+#: lib/enums/ModelInformation.tsx:277
 #: src/pages/company/CompanyDetail.tsx:181
 #: src/pages/core/CoreIndex.tsx:34
 msgid "Contacts"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:280
+#: lib/enums/ModelInformation.tsx:282
 #: src/components/tables/ColumnRenderers.tsx:653
 msgid "Owner"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:281
+#: lib/enums/ModelInformation.tsx:283
 msgid "Owners"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:286
+#: lib/enums/ModelInformation.tsx:288
 #: src/components/tables/ColumnRenderers.tsx:603
 #: src/components/tables/Filter.tsx:441
 #: src/pages/Auth/ChangePassword.tsx:36
@@ -585,7 +588,7 @@ msgstr ""
 msgid "User"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:287
+#: lib/enums/ModelInformation.tsx:289
 #: src/components/nav/NavigationDrawer.tsx:105
 #: src/defaults/actions.tsx:220
 #: src/pages/Index/Settings/AdminCenter/UserManagementPanel.tsx:15
@@ -594,12 +597,12 @@ msgstr ""
 msgid "Users"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:293
+#: lib/enums/ModelInformation.tsx:295
 #: src/pages/core/GroupDetail.tsx:78
 msgid "Group"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:294
+#: lib/enums/ModelInformation.tsx:296
 #: src/components/nav/NavigationDrawer.tsx:111
 #: src/pages/Index/Settings/AdminCenter/UserManagementPanel.tsx:23
 #: src/pages/core/CoreIndex.tsx:28
@@ -609,70 +612,70 @@ msgstr ""
 msgid "Groups"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:301
+#: lib/enums/ModelInformation.tsx:303
 msgid "Import Session"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:302
+#: lib/enums/ModelInformation.tsx:304
 msgid "Import Sessions"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:308
+#: lib/enums/ModelInformation.tsx:310
 msgid "Label Template"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:309
+#: lib/enums/ModelInformation.tsx:311
 #: src/defaults/actions.tsx:260
 #: src/pages/Index/Settings/AdminCenter/Index.tsx:262
 msgid "Label Templates"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:316
+#: lib/enums/ModelInformation.tsx:318
 msgid "Report Template"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:317
+#: lib/enums/ModelInformation.tsx:319
 #: src/defaults/actions.tsx:250
 #: src/pages/Index/Settings/AdminCenter/Index.tsx:268
 msgid "Report Templates"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:324
+#: lib/enums/ModelInformation.tsx:326
 #: src/components/plugins/PluginDrawer.tsx:168
 msgid "Plugin Configuration"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:325
+#: lib/enums/ModelInformation.tsx:327
 msgid "Plugin Configurations"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:332
+#: lib/enums/ModelInformation.tsx:334
 msgid "Content Type"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:333
+#: lib/enums/ModelInformation.tsx:335
 msgid "Content Types"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:338
+#: lib/enums/ModelInformation.tsx:340
 #: src/tables/settings/SelectionListTable.tsx:122
 msgid "Selection List"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:339
+#: lib/enums/ModelInformation.tsx:341
 #: src/pages/Index/Settings/AdminCenter/Index.tsx:241
 msgid "Selection Lists"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:345
+#: lib/enums/ModelInformation.tsx:347
 msgid "Selection Entry"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:346
+#: lib/enums/ModelInformation.tsx:348
 msgid "Selection Entries"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:352
+#: lib/enums/ModelInformation.tsx:354
 #: src/components/barcodes/BarcodeInput.tsx:114
 #: src/components/buttons/StarredToggleButton.tsx:46
 #: src/components/dashboard/DashboardLayout.tsx:299
@@ -713,27 +716,27 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:353
+#: lib/enums/ModelInformation.tsx:355
 #: src/tables/machine/MachineListTable.tsx:403
 #: src/tables/machine/MachineTypeTable.tsx:300
 msgid "Errors"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:360
+#: lib/enums/ModelInformation.tsx:362
 msgid "Tag"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:361
+#: lib/enums/ModelInformation.tsx:363
 #: src/components/tables/Filter.tsx:412
 #: src/forms/CommonFields.tsx:36
 msgid "Tags"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:366
+#: lib/enums/ModelInformation.tsx:368
 msgid "Note Template"
 msgstr ""
 
-#: lib/enums/ModelInformation.tsx:367
+#: lib/enums/ModelInformation.tsx:369
 #: src/pages/Index/Settings/AdminCenter/Index.tsx:248
 #: src/pages/Index/Settings/AdminCenter/NoteTemplatePanel.tsx:9
 msgid "Note Templates"
@@ -2295,7 +2298,8 @@ msgstr ""
 #: src/pages/Index/Settings/AdminCenter/UnitManagementPanel.tsx:19
 #: src/pages/part/PartCategoryDetailsPanel.tsx:22
 #: src/pages/part/PartDetailsPanel.tsx:79
-#: src/pages/stock/StockLocationDetailsPanel.tsx:20
+#: src/pages/stock/LocationTypeDetailsPanel.tsx:11
+#: src/pages/stock/StockLocationDetailsPanel.tsx:28
 #: src/tables/machine/MachineTypeTable.tsx:70
 #: src/tables/machine/MachineTypeTable.tsx:152
 #: src/tables/machine/MachineTypeTable.tsx:255
@@ -2306,7 +2310,7 @@ msgstr ""
 #: src/tables/settings/GroupTable.tsx:149
 #: src/tables/settings/GroupTable.tsx:257
 #: src/tables/settings/PendingTasksTable.tsx:37
-#: src/tables/stock/LocationTypesTable.tsx:74
+#: src/tables/stock/LocationTypesTable.tsx:65
 msgid "Name"
 msgstr ""
 
@@ -2835,7 +2839,7 @@ msgstr ""
 
 #: src/components/items/PartCreationMenu.tsx:92
 #: src/tables/bom/BomTable.tsx:792
-#: src/tables/general/ParameterTable.tsx:203
+#: src/tables/general/ParameterTable.tsx:204
 msgid "Import from File"
 msgstr ""
 
@@ -3449,6 +3453,7 @@ msgstr ""
 #: src/pages/part/PartDetail.tsx:302
 #: src/pages/stock/LocationDetail.tsx:388
 #: src/pages/stock/LocationDetail.tsx:433
+#: src/pages/stock/LocationTypeDetail.tsx:114
 #: src/pages/stock/StockDetail.tsx:308
 #: src/pages/stock/TransferOrderDetail.tsx:358
 #: src/tables/stock/StockItemTable.tsx:86
@@ -3467,7 +3472,7 @@ msgstr ""
 #: src/defaults/links.tsx:62
 #: src/pages/Index/Settings/SystemSettings.tsx:343
 #: src/pages/company/ManufacturerDetail.tsx:9
-#: src/pages/company/ManufacturerPartDetail.tsx:168
+#: src/pages/company/ManufacturerPartDetail.tsx:176
 #: src/pages/company/SupplierDetail.tsx:9
 #: src/pages/company/SupplierPartDetail.tsx:186
 #: src/pages/purchasing/PurchaseOrderDetail.tsx:351
@@ -3560,7 +3565,7 @@ msgid "Remove search group"
 msgstr ""
 
 #: src/components/nav/SearchDrawer.tsx:320
-#: src/pages/company/ManufacturerPartDetail.tsx:88
+#: src/pages/company/ManufacturerPartDetail.tsx:89
 #: src/pages/part/PartDetail.tsx:378
 #: src/pages/part/PartSupplierDetail.tsx:15
 #: src/pages/purchasing/PurchasingIndex.tsx:123
@@ -3695,7 +3700,8 @@ msgstr ""
 #: src/pages/purchasing/PurchaseOrderDetailsPanel.tsx:67
 #: src/pages/sales/ReturnOrderDetailsPanel.tsx:67
 #: src/pages/sales/SalesOrderDetailsPanel.tsx:67
-#: src/pages/stock/StockLocationDetailsPanel.tsx:40
+#: src/pages/stock/LocationTypeDetailsPanel.tsx:12
+#: src/pages/stock/StockLocationDetailsPanel.tsx:48
 #: src/pages/stock/TransferOrderDetailsPanel.tsx:45
 #: src/tables/build/BuildAllocatedStockTable.tsx:94
 #: src/tables/machine/MachineTypeTable.tsx:162
@@ -3928,6 +3934,7 @@ msgid "In Production"
 msgstr ""
 
 #: src/components/render/Part.tsx:78
+#: src/pages/stock/LocationTypeDetail.tsx:70
 msgid "Details"
 msgstr ""
 
@@ -4272,7 +4279,7 @@ msgstr ""
 
 #: src/components/tables/ColumnRenderers.tsx:342
 #: src/pages/part/PartCategoryDetailsPanel.tsx:34
-#: src/pages/stock/StockLocationDetailsPanel.tsx:32
+#: src/pages/stock/StockLocationDetailsPanel.tsx:40
 #: src/tables/settings/ErrorTable.tsx:63
 #: src/tables/settings/ErrorTable.tsx:108
 msgid "Path"
@@ -4666,7 +4673,7 @@ msgstr ""
 #: src/components/tables/Filter.tsx:454
 #: src/pages/company/CompanyDetailsPanel.tsx:78
 #: src/pages/company/ManufacturerDetail.tsx:8
-#: src/pages/company/ManufacturerPartDetail.tsx:172
+#: src/pages/company/ManufacturerPartDetail.tsx:180
 #: src/pages/company/ManufacturerPartDetailsPanel.tsx:57
 #: src/pages/company/SupplierPartDetailsPanel.tsx:106
 #: src/tables/company/CompanyTable.tsx:101
@@ -6807,19 +6814,19 @@ msgstr ""
 msgid "Parent stock location"
 msgstr ""
 
-#: src/forms/StockForms.tsx:2325
+#: src/forms/StockForms.tsx:2335
 msgid "Find Serial Number"
 msgstr ""
 
-#: src/forms/StockForms.tsx:2336
+#: src/forms/StockForms.tsx:2346
 msgid "No matching items"
 msgstr ""
 
-#: src/forms/StockForms.tsx:2342
+#: src/forms/StockForms.tsx:2352
 msgid "Multiple matching items"
 msgstr ""
 
-#: src/forms/StockForms.tsx:2351
+#: src/forms/StockForms.tsx:2361
 msgid "Invalid response from server"
 msgstr ""
 
@@ -7134,7 +7141,7 @@ msgid "Delete selected stock items"
 msgstr ""
 
 #: src/hooks/UseStockAdjustActions.tsx:219
-#: src/pages/Index/Scan.tsx:258
+#: src/pages/Index/Scan.tsx:267
 #: src/pages/part/PartDetail.tsx:743
 msgid "Stock Actions"
 msgstr ""
@@ -7266,32 +7273,32 @@ msgstr ""
 msgid "Log in"
 msgstr ""
 
-#: src/pages/Auth/MFASetup.tsx:40
-#: src/pages/Auth/MFASetup.tsx:78
+#: src/pages/Auth/MFASetup.tsx:42
+#: src/pages/Auth/MFASetup.tsx:80
 msgid "MFA Setup Required"
 msgstr ""
 
-#: src/pages/Auth/MFASetup.tsx:42
+#: src/pages/Auth/MFASetup.tsx:44
 msgid "Email verification required"
 msgstr ""
 
-#: src/pages/Auth/MFASetup.tsx:44
+#: src/pages/Auth/MFASetup.tsx:46
 msgid "Your email address must be verified before multi-factor authentication can be set up."
 msgstr ""
 
-#: src/pages/Auth/MFASetup.tsx:50
+#: src/pages/Auth/MFASetup.tsx:52
 msgid "Send a verification email, follow the link it contains, then return here and try again."
 msgstr ""
 
-#: src/pages/Auth/MFASetup.tsx:62
+#: src/pages/Auth/MFASetup.tsx:64
 msgid "Send Verification Email"
 msgstr ""
 
-#: src/pages/Auth/MFASetup.tsx:69
+#: src/pages/Auth/MFASetup.tsx:71
 msgid "Try Again"
 msgstr ""
 
-#: src/pages/Auth/MFASetup.tsx:89
+#: src/pages/Auth/MFASetup.tsx:91
 msgid "Add TOTP"
 msgstr ""
 
@@ -7573,6 +7580,14 @@ msgstr ""
 #~ msgid "Actions ..."
 #~ msgstr "Actions ..."
 
+#: src/pages/Index/Scan.tsx:196
+msgid "Failed to refresh selected items"
+msgstr ""
+
+#: src/pages/Index/Scan.tsx:197
+msgid "Refresh Error"
+msgstr ""
+
 #: src/pages/Index/Scan.tsx:217
 #~ msgid "Manual input"
 #~ msgstr "Manual input"
@@ -7581,63 +7596,63 @@ msgstr ""
 #~ msgid "Image Barcode"
 #~ msgstr "Image Barcode"
 
-#: src/pages/Index/Scan.tsx:232
+#: src/pages/Index/Scan.tsx:241
 msgid "Multiple object types selected"
 msgstr ""
 
-#: src/pages/Index/Scan.tsx:239
+#: src/pages/Index/Scan.tsx:248
 msgid "Selected elements are not known"
 msgstr ""
 
-#: src/pages/Index/Scan.tsx:250
+#: src/pages/Index/Scan.tsx:259
 msgid "No actions available for the selected items"
-msgstr ""
-
-#: src/pages/Index/Scan.tsx:268
-#: src/pages/Index/Scan.tsx:272
-msgid "Barcode Scanning"
 msgstr ""
 
 #: src/pages/Index/Scan.tsx:276
 #~ msgid "Actions for {0}"
 #~ msgstr "Actions for {0}"
 
+#: src/pages/Index/Scan.tsx:277
 #: src/pages/Index/Scan.tsx:281
+msgid "Barcode Scanning"
+msgstr ""
+
+#: src/pages/Index/Scan.tsx:290
 msgid "Barcode Input"
 msgstr ""
 
-#: src/pages/Index/Scan.tsx:288
+#: src/pages/Index/Scan.tsx:297
 #: src/tables/general/AuditLogTable.tsx:492
 #: src/tables/general/AuditLogTable.tsx:542
 msgid "Action"
-msgstr ""
-
-#: src/pages/Index/Scan.tsx:291
-msgid "No Items Selected"
-msgstr ""
-
-#: src/pages/Index/Scan.tsx:292
-msgid "Scan and select items to perform actions"
-msgstr ""
-
-#. placeholder {0}: selection.length
-#: src/pages/Index/Scan.tsx:297
-msgid "{0} items selected"
 msgstr ""
 
 #: src/pages/Index/Scan.tsx:298
 #~ msgid "Scan Page"
 #~ msgstr "Scan Page"
 
+#: src/pages/Index/Scan.tsx:300
+msgid "No Items Selected"
+msgstr ""
+
+#: src/pages/Index/Scan.tsx:301
+msgid "Scan and select items to perform actions"
+msgstr ""
+
 #: src/pages/Index/Scan.tsx:301
 #~ msgid "This page can be used for continuously scanning items and taking actions on them."
 #~ msgstr "This page can be used for continuously scanning items and taking actions on them."
+
+#. placeholder {0}: selection.length
+#: src/pages/Index/Scan.tsx:306
+msgid "{0} items selected"
+msgstr ""
 
 #: src/pages/Index/Scan.tsx:308
 #~ msgid "Toggle Fullscreen"
 #~ msgstr "Toggle Fullscreen"
 
-#: src/pages/Index/Scan.tsx:309
+#: src/pages/Index/Scan.tsx:318
 msgid "Scanned Items"
 msgstr ""
 
@@ -8864,6 +8879,7 @@ msgstr ""
 #~ msgstr "Identity"
 
 #: src/pages/Index/Settings/AdminCenter/Index.tsx:286
+#: src/pages/stock/LocationTypeDetail.tsx:118
 msgid "Location Types"
 msgstr ""
 
@@ -9454,7 +9470,7 @@ msgstr ""
 
 #: src/pages/build/BuildDetail.tsx:550
 #: src/pages/build/BuildOrderDetailsPanel.tsx:91
-#: src/pages/stock/StockLocationDetailsPanel.tsx:83
+#: src/pages/stock/StockLocationDetailsPanel.tsx:91
 #: src/tables/build/BuildOrderFilters.tsx:78
 #: src/tables/build/BuildOrderTable.tsx:112
 #: src/tables/stock/StockLocationTable.tsx:51
@@ -9656,34 +9672,34 @@ msgstr ""
 msgid "Internal"
 msgstr ""
 
-#: src/pages/company/ManufacturerPartDetail.tsx:62
+#: src/pages/company/ManufacturerPartDetail.tsx:63
 msgid "Manufacturer Part Details"
 msgstr ""
 
-#: src/pages/company/ManufacturerPartDetail.tsx:74
+#: src/pages/company/ManufacturerPartDetail.tsx:75
 #: src/pages/company/SupplierPartDetail.tsx:82
 #: src/pages/purchasing/PurchaseOrderDetail.tsx:185
 msgid "Received Stock"
 msgstr ""
 
-#: src/pages/company/ManufacturerPartDetail.tsx:108
+#: src/pages/company/ManufacturerPartDetail.tsx:109
 #: src/tables/purchasing/ManufacturerPartTable.tsx:131
 msgid "Edit Manufacturer Part"
 msgstr ""
 
-#: src/pages/company/ManufacturerPartDetail.tsx:119
+#: src/pages/company/ManufacturerPartDetail.tsx:120
 #: src/tables/purchasing/ManufacturerPartTable.tsx:118
 #: src/tables/purchasing/ManufacturerPartTable.tsx:142
 #: src/tables/purchasing/ManufacturerPartTable.tsx:184
 msgid "Add Manufacturer Part"
 msgstr ""
 
-#: src/pages/company/ManufacturerPartDetail.tsx:131
+#: src/pages/company/ManufacturerPartDetail.tsx:132
 #: src/tables/purchasing/ManufacturerPartTable.tsx:153
 msgid "Delete Manufacturer Part"
 msgstr ""
 
-#: src/pages/company/ManufacturerPartDetail.tsx:146
+#: src/pages/company/ManufacturerPartDetail.tsx:154
 msgid "Manufacturer Part Actions"
 msgstr ""
 
@@ -9889,7 +9905,7 @@ msgid "Parent Category"
 msgstr ""
 
 #: src/pages/part/PartCategoryDetailsPanel.tsx:87
-#: src/pages/stock/StockLocationDetailsPanel.tsx:77
+#: src/pages/stock/StockLocationDetailsPanel.tsx:85
 #: src/tables/part/PartCategoryTable.tsx:90
 #: src/tables/stock/StockLocationTable.tsx:46
 msgid "Structural"
@@ -10548,7 +10564,7 @@ msgstr ""
 #: src/pages/sales/ReturnOrderDetailsPanel.tsx:235
 #: src/pages/sales/SalesOrderDetailsPanel.tsx:235
 #: src/pages/stock/StockDetailsPanel.tsx:369
-#: src/tables/general/ParameterTable.tsx:101
+#: src/tables/general/ParameterTable.tsx:102
 #: src/tables/general/ParametricDataTable.tsx:102
 #: src/tables/settings/TemplateTable.tsx:269
 #: src/tables/stock/StockItemTable.tsx:187
@@ -10987,7 +11003,7 @@ msgid "Location Details"
 msgstr ""
 
 #: src/pages/stock/LocationDetail.tsx:124
-#: src/pages/stock/StockLocationDetailsPanel.tsx:71
+#: src/pages/stock/StockLocationDetailsPanel.tsx:79
 msgid "Sublocations"
 msgstr ""
 
@@ -11080,6 +11096,20 @@ msgstr ""
 
 #: src/pages/stock/LocationDetail.tsx:353
 msgid "Scan container into this location"
+msgstr ""
+
+#: src/pages/stock/LocationTypeDetail.tsx:53
+#: src/tables/stock/LocationTypesTable.tsx:43
+msgid "Edit Location Type"
+msgstr ""
+
+#: src/pages/stock/LocationTypeDetail.tsx:61
+#: src/tables/stock/LocationTypesTable.tsx:51
+msgid "Delete Location Type"
+msgstr ""
+
+#: src/pages/stock/LocationTypeDetail.tsx:102
+msgid "Location Type Actions"
 msgstr ""
 
 #: src/pages/stock/StockDetail.tsx:155
@@ -11343,17 +11373,17 @@ msgstr ""
 msgid "Last Stocktake"
 msgstr ""
 
-#: src/pages/stock/StockLocationDetailsPanel.tsx:49
+#: src/pages/stock/StockLocationDetailsPanel.tsx:57
 msgid "Parent Location"
 msgstr ""
 
-#: src/pages/stock/StockLocationDetailsPanel.tsx:88
+#: src/pages/stock/StockLocationDetailsPanel.tsx:96
 #: src/tables/stock/StockItemTable.tsx:346
 #: src/tables/stock/StockLocationTable.tsx:56
 msgid "Exclude from Stock"
 msgstr ""
 
-#: src/pages/stock/StockLocationDetailsPanel.tsx:93
+#: src/pages/stock/StockLocationDetailsPanel.tsx:101
 #: src/tables/stock/StockLocationTable.tsx:65
 msgid "Location Type"
 msgstr ""
@@ -12473,59 +12503,59 @@ msgstr ""
 msgid "Add Extra Line Item"
 msgstr ""
 
-#: src/tables/general/ParameterTable.tsx:88
+#: src/tables/general/ParameterTable.tsx:89
 msgid "Internal Units"
 msgstr ""
 
-#: src/tables/general/ParameterTable.tsx:109
-#: src/tables/general/ParameterTable.tsx:124
+#: src/tables/general/ParameterTable.tsx:110
+#: src/tables/general/ParameterTable.tsx:125
 #: src/tables/general/ParametricDataTable.tsx:111
 #: src/tables/settings/TemplateTable.tsx:281
 msgid "Updated By"
 msgstr ""
 
-#: src/tables/general/ParameterTable.tsx:119
+#: src/tables/general/ParameterTable.tsx:120
 msgid "Show parameters for enabled templates"
 msgstr ""
 
-#: src/tables/general/ParameterTable.tsx:125
+#: src/tables/general/ParameterTable.tsx:126
 msgid "Filter by user who last updated the parameter"
 msgstr ""
 
-#: src/tables/general/ParameterTable.tsx:150
+#: src/tables/general/ParameterTable.tsx:151
 msgid "Import Parameters"
 msgstr ""
 
-#: src/tables/general/ParameterTable.tsx:161
+#: src/tables/general/ParameterTable.tsx:162
 #: src/tables/general/ParametricDataTable.tsx:338
 #: src/tables/general/ParametricDataTable.tsx:469
 msgid "Add Parameter"
 msgstr ""
 
-#: src/tables/general/ParameterTable.tsx:172
-#: src/tables/general/ParameterTable.tsx:219
+#: src/tables/general/ParameterTable.tsx:173
+#: src/tables/general/ParameterTable.tsx:220
 #: src/tables/general/ParametricDataTable.tsx:362
 msgid "Edit Parameter"
 msgstr ""
 
-#: src/tables/general/ParameterTable.tsx:180
-#: src/tables/general/ParameterTable.tsx:227
+#: src/tables/general/ParameterTable.tsx:181
+#: src/tables/general/ParameterTable.tsx:228
 msgid "Delete Parameter"
 msgstr ""
 
-#: src/tables/general/ParameterTable.tsx:188
+#: src/tables/general/ParameterTable.tsx:189
 msgid "Add Parameters"
 msgstr ""
 
-#: src/tables/general/ParameterTable.tsx:194
+#: src/tables/general/ParameterTable.tsx:195
 msgid "Create Parameter"
 msgstr ""
 
-#: src/tables/general/ParameterTable.tsx:196
+#: src/tables/general/ParameterTable.tsx:197
 msgid "Create a new parameter"
 msgstr ""
 
-#: src/tables/general/ParameterTable.tsx:205
+#: src/tables/general/ParameterTable.tsx:206
 msgid "Import parameters from a file"
 msgstr ""
 
@@ -14591,20 +14621,12 @@ msgstr ""
 msgid "Uninstall stock item"
 msgstr ""
 
-#: src/tables/stock/LocationTypesTable.tsx:44
-#: src/tables/stock/LocationTypesTable.tsx:111
+#: src/tables/stock/LocationTypesTable.tsx:35
+#: src/tables/stock/LocationTypesTable.tsx:102
 msgid "Add Location Type"
 msgstr ""
 
-#: src/tables/stock/LocationTypesTable.tsx:52
-msgid "Edit Location Type"
-msgstr ""
-
-#: src/tables/stock/LocationTypesTable.tsx:60
-msgid "Delete Location Type"
-msgstr ""
-
-#: src/tables/stock/LocationTypesTable.tsx:68
+#: src/tables/stock/LocationTypesTable.tsx:59
 msgid "Icon"
 msgstr ""
 
